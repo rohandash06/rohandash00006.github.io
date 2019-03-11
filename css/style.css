@@ -103,7 +103,7 @@ figure {
   width: 300px;
   position: fixed;
   z-index: 1001;
-    background-color: #599CEE;
+    background-color: #18467f;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -116,7 +116,7 @@ figure {
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
       padding-top: 4em;
-	  background-color: #599CEE;
+	  background-color: #18467f;
       } }
   #colorlib-aside .author-img {
     width: 150px;
@@ -395,7 +395,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background-color: #599CEE;
+    background-color: #18467f;
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
