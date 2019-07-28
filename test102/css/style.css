@@ -153,6 +153,10 @@ h5  {
 .tabs .indicator {
   background-color:#546de5;
 }
+.colorlib-skills,
+ @media screen and (max-width: 768px) {
+	 .colorlib-skills,}
+
 
 /*MEDIA QUERIES*/
 @media only screen and (max-width : 768px) {
