@@ -30,7 +30,7 @@ $(function() {
 	.fbMessenger('message', 'bot', 'Scroll Down!', { timestamp: now, delay: 1500 })
 	.fbMessenger('message', '', '', { timestamp: now, delay: 0 })
 	.fbMessenger('showQuickReplies', [
-		'<a href="#scroll-to-work" id="work-link">Work</a>',
+		'<a href="#scroll-to-work" id="work-link">Projects</a>',
 		//'<a href="" target="_blank">Writing</a>',
 		'<a href="#scroll-to-about">About</a>',
 		'<a href="resume.pdf" target="_blank">Resume</a>'
