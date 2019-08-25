@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Route Creator - User Experience Design</title>
+  <link rel="shortcut icon" href="img/favicon_logo3.ico">
+  <link rel="apple-touch-icon" href="img/favicon_logo3.ico">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/route_creator.css">
+  <link type="text/css" href="css/magnifier.css" rel="stylesheet">
+  <link type="text/css" href="css/glassstyle.min.css" rel="stylesheet">
+  <script src="js/topbutton.js"></script>
+  <!-- <script src="js/jquery.min.js"></script>
+  <script src="js/lightzoom.min.js"></script> -->
+
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="logo">
+      <a href="index.html">
+        <img src="img/logo_new3.png" width="55%" height="auto" alt="">
+      </a>
+    </h1>
+    <nav aria-label="네비게이션">
+      <ul class="nav-menu">
+        <li class="nav-portfolio">
+          <a href="index.html">Portfolio</a>
+        </li>
+        <li class="nav-about">
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <article class="route">
+    <div class="route-wrap">
+      <h1>Route Creator
+        <p class="rc-description">
+          An application that allows you
+          <br> to make your own routes in the most convenient way
+        </p>
+      </h1>
+      <p class="rc-details">
+        <span class="rc-details-heading">Type</span> Team Project | Rachael Kim, Eunyoung Lee, Seoyoun Baek, April Shin 
+        <br>
+        <span class="rc-details-heading">Role</span> UX Designer 
+        <br>
+        <span class="rc-details-heading">Tools</span> Sketch, Protopie, Adobe Illustrator, Adobe Photoshop
+        <br>
+        <span class="rc-details-heading">Duration</span> 3 weeks | Received <span class="italic">3rd place</span> at Fast Campus design competition
+        <br>
+        <span class="rc-details-heading">Service Slogan</span> Create your own routes in less than a minute. It’s super
+        quick,
+        flexible, and easy.
+        <br>
+      </p>
+    </div>
+    <figure>
+      <img class="rwd-img" src="rc_contents/rc_first_img.jpg" width=100% height=auto alt="">
+    </figure>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"> Go to top</button>
+    <section class="overview">
+      <h2>Overview</h2>
+      <p> I was given this project when taking full-time UX school  at Fast Campus. Fast Campus UX School
+      is a competitive and intensive 3-month long
+      UX design program like General Assembly. We as a team, were given the challenge, <span class="bold">"Design a travel application."</span>
+      
+      <br><br>While conducting extensive background and user research, I figured that there are many user problems untapped in travel application, and particularly noticed that many users have experienced problems in <span class="bold">finding the most efficient travel routes quickly and conveniently.</span> 
+      
+            
+        <!-- <br><br>I am an enthusiastic traveler, but <span class="bold">making an itinerary takes a lot of time and effort</span>
+        even for me.
+        Of course, Google Map is my savior in this, but I still often need extra papers to write down notes to
+        schedule
+        my trip. Whenever my plan undergoes some changes, I go back to the map, search places again, and compare
+        distances
+        to find the most efficient routes for my entire schedule. -->
+        
+        <!-- <br><br>While exploring these issues, I came up with the idea of <span class="bold">shopping cart</span>: 
+      <br><br><span class="italic">“Why can't we use the concept of shopping cart in helping users to create own routes?”</span> -->
+
+        <br><br>Based on rigorous research with insightful analysis, we decided to solve the problem in <span class="bold">finding the most efficient travel routes.
+        </span> The <span class="italic">Route
+          Creator</span> was <span class="bold">nominated 3rd place</span> in in-house final design
+        competition among 23 teams.
+      </p>
+
+      <br><br><br><a href="#research" class="button1" style="style=vertical-align:middle">JUMP PAST SOLUTION TO RESEARCH</a>
+    </section>
+
+    <section class="overview">
+      <h2>The Solution</h2>
+      <p><span class="bold">Route Creator</span> is an application
+        that immediately creates the fastest route based on users' input. Users can add and subtract their wishlisted-places just like a <span class="bold">shopping
+          cart</span>.
+    
+        <br><br> <span class="italic">Why this solution?</span>
+        <br><br> <span class="bold">1) Save your time and effort</span>
+        <br>Although there have been many travel applications, many users have problems that they still need to spend substantial time and effort to make a solid travel itinerary. 
+       <span class="italic">Route Creator</span> would allow users to save their wish-places whenever, and create their unique routes based on users' input immediately. 
+        <br><br> <span class="bold">2) Change your plans flexibly and quickly</span>
+        <br>From user research, users have problems when they have to spend too much time when changing their travel plans unexpectedly. 
+       Through <span class="italic">Route Creator</span>, users can always add or subtract desired places and re-create their own route instantly. 
+    
+        <br><br> <span class="bold">3) One-stop solution for your travel plan </span>
+        <br>From user research, users use average two applications when making travel plans, which is not desirable. <span class="italic">Route Creator</span> not only creates unique routes for users, but also provides essential information regarding their travel plan within the application.
+
+
+        <br><br> <span class="bold">3) The concept of route (shopping) cart is creative, original and effective. </span>
+        <br>From user research, users were very satisfied with the idea of route cart, just like shopping cart. Users can always add and subtract <span class="italic">wishlisted-places into route cart</span> and immediately create their own route quickly and easily.
+
+      </p>
+    </section>
+    <section class="overview">
+      <h2>Key Screens & Features</h2>
+      <p>
+        <div class="row">
+          <div class="column"><br><br><br><br><br><span class="keytitle">1. Onboarding & Login</span>
+            <br><br><br>Splash and onboarding screens allow users to quickly learn about the application. 
+            <br><br>Users can either use social accounts or use email address to login.
+          </div>
+          <div class="column"><video class="video" width="90%" src="rc_contents/video/test.mp4" autoplay
+              controls loop muted></video>
+          </div>
+        </div>
+      </p>
+      <p>
+        <div class="row">
+          <div class="column"><br><br><br><br><span class="keytitle">2. Search & Add Places </span>
+            <br><br><br>Users can search places by name or address and add those places to <span class="italic">Creator</span>  tap like shopping cart.
+            <br><br>After the search, users can either keep searching to add more places to <span class="italic">Creator</span> tap or directly going to <span class="italic">Creator</span> tap to create their own route.
+          </div>
+          <div class="column"><video class="video" width="90%" src="rc_contents/video/new/2_search.mp4" autoplay
+              controls loop muted></video>
+          </div>
+        </div>
+      </p>
+      <p>
+        <div class="row">
+          <div class="column"><br><br><br><span
+            class="keytitle">3. Create Your Route </span>
+            <br><br><br><span class="italic">Creator</span> tap is like a shopping cart. Users can always save and subtract places they wish to go.
+            <br><br>Users can also review essential information about the places. Once users decide all the places they want to add to their itinerary, users finally put their starting point to create their own route. 
+          </div>
+          <div class="column"><video class="video" width="90%" src="rc_contents/video/3_new.mp4" autoplay
+              controls loop muted></video>
+          </div>
+        </div>
+      </p>
+      <p>
+        <div class="row">
+          <div class="column"><br><br><span class="keytitle">4. Enjoy and Save Your Route</span>
+            <br><br><span class="italic">Route Creator</span> immediately creates the fastest route based on places they added to their <span class="italic">Creator</span> tap. They can also view <span class="italic">Direction</span> to see transportation and <span class="italic">Near Spots</span> to see what other popular places are nearby.
+            <br><br>Users can save those routes and find them on home screen. <span class="italic">Guide</span> tap will provide a quick guide for the application and overall travel tips.
+          </div>
+          <div class="column"><video class="video" width="90%" src="rc_contents/video/new/4_enjoyroute.mp4" autoplay controls
+              loop muted></video>
+          </div>
+        </div>
+      </p>
+    </section>
+    <main class="main" id="research">
+    <section class="approach">
+      <h2>Approach</h2>
+      <p>
+        I adopted the “Double Diamond” Methodology: <span class="italic">Discover, Define, Develop, and
+          Deliver.</span>
+      </p>
+      <figure>
+        <img class="rwd-img" src="rc_contents/double_diamond.jpg" width="100%" height="auto" alt="">
+      </figure>
+      <!-- <p>
+        <br><br>In <span class="discover-italic">Discover</span> phase, the project was conducted by a team, who were
+        also
+        working with the same topic, travel. We collaborately conducted quantitative and qualitative research including
+        <span class="bold">survey</span> and <span class="bold">individual in-depth interviews.</span>
+        Before delving into the next phase, I used an <span class="bold">affinity diagram</span> to organize ideas and
+        data
+        to draw <span class="bold">key findings.</span>
+        <br><br>In <span class="discover-italic">Define</span> phase, I defined purpose of design - what, how, and for
+        whom
+        - by <span class="bold">identifying target users & problems</span> through <span class="bold"> user
+          segmentation,
+          persona scenario</span>, and a <span class="bold">journey map.</span>
+        <br><br>In <span class="discover-italic">Develop</span> phase, I created a blueprint to solve my users’
+        problems
+        by incorporating creative <span class="bold">ideation, UX strategy.</span> Based on UX strategy, I started
+        developing
+        a design concept by utilizing <span class="bold">mind maps, concept keywords, and a mood board.</span>
+        <br><br>In <span class="discover-italic">Deliver</span> phase, I created <span class="bold"> wireframes </span>and
+        had a <span class="bold">low-fi wireframe session</span>, which provided me precious feedback from users.
+        Finally,
+        I finalized my <span class="bold"> final design </span>and completed <span class="bold">prototyping</span>.
+
+      </p> -->
+    </section>
+      </main>
+    <section class="process">
+      <h2>Basic Research</h2>
+      <p>
+        In <span class="discover-italic">Discover</span> phase, tailored research is key. As a team-based research, we
+        conducted <span class="bold">basic research </span>by assigning each other different foci: domestic trend,
+        global trend, or current
+        popular travel app services.
+      </p>
+      <figure>
+        <img class="rwd-img" src="rc_contents/basic_research.jpg" width="100%" height="auto" alt="">
+        <figcaption class="figcaption">Key takeaways from domestic trend,
+        global trend, or current
+        popular travel app services basic research.</figcaption>
+      </figure>
+    </section>
+    <section class="process">
+      <h2>User Research & Competitive Analysis</h2>
+      <p>
+        After basic research, we conducted a <span class="bold">survey </span>with 100+
+        participants,
+        and <span class="bold">individual interviews</span> to figure out current users' experiences with other travel
+        apps
+        and problems they encountered. We later, selected 4 interviewees, who gave insightful responses for <span class="bold">in-depth
+          individual interviews.</span>
+        
+        <br><br>
+        Each member conducted <span class="bold">competitive analysis</span> by analyzing different services. I individually looked at Google trip, Triplt, and Wishbeens. Later, we gathered and discussed insights and findings.
+      
+      </p>
+      <br><a target="_blank" href="rc_contents/competitive_analysis.png" class="button" style="style=vertical-align:middle">View
+        competitive analysis
+      </a>
+      <figure>
+        <img class="rwd-img" src="rc_contents/survey.jpg" alt="">
+        <figcaption class="figcaption">Survey with 100+ participants.</figcaption>
+      </figure>
+      <figure>
+        <img class="rwd-img" src="rc_contents/user_interview.jpg" alt="">
+        <figcaption class="figcaption">Four individual in-depth Interviews’ insightful words from users voices.</figcaption>
+      </figure>
+    </section>
+    <section class="process">
+      <h2>Affinity Map</h2>
+      <p>
+        Based on outcomes from <span class="italic">discover</span> stage, we used <span class="bold">affinity map</span>
+        to gather data and organize them into groups based on their relationships.
+      </p>
+      <figure>
+        <img class="rwd-img" src="rc_contents/affinity_map.jpg" width="100%" height="auto" alt="">
+        <figcaption class="figcaption">Conducted affinity map to highlight key findings.</figcaption>
+      </figure>
+    </section>
+    <section class="process">
+      <h2>Key Findings </h2>
+      <p>Among a number of findings and insight about travel application, our team decided to focus on one of the core user problems: <span class="bold">it is difficult to effectively create my travel route.</span> 
+        
+      <br><br>There were two primary reasons: 1) we received <span class="bold">the most responses about this problem</span> and 2) the majority of users we interviewed highlighted that <span class="bold">there were no satisfactory application in this matter.</span></p>
+      <figure>
+        <img class="rwd-img" src="rc_contents/key_findings.jpg" alt="">
+        <figcaption class="figcaption">Important key findings from discover stage.</figcaption>
+      </figure>
+    </section>
+    <section class="process">
+      <h2>User Task Matrix</h2>
+      <p>
+        <!-- To me, <span class="italic">Define</span> is the most important phase, requiring more time and effort than any
+        other
+        phase. <span class="bold">Defining WHO (target user), WHAT (service blueprint), HOW (method)</span>
+        is the heart of problem-solving. -->
+        In order to clearly define target users, I asked myself: “Who is our target user?” In this process, we grabbed 5 sticky notes and defined 5 types of people who may need our service the
+        most.
+        <br><br>I drew a <span class="bold">user task matrix </span>based on two most important factors,
+        age
+        and traveling style, as x and y axis criteria. We decided these two criteria based on the previous research. After, we wrote down <span class="bold">three major tasks</span> that such types of people
+        would perform when they need our
+        service.
+      </p>
+      <figure>
+        <img class="rwd-img" src="rc_contents/define_user_matrix.jpg" alt="">
+        <figcaption class="figcaption">User task matrix based on two most important factors.</figcaption>
+      </figure>
+    </section>
+    <section class="process">
+      <h2>Persona and Journey Map</h2>
+      <p>
+        Through user task matrix, we decided that we wanted to <span class="bold">target our users who are in 10s and 30s.</span> This was because, while over 40s+ users do not often use mobile application, the age between 10s-30s mostly use mobile application when traveling.
+        <br><br>Based on our target users, we created two <span class="bold">personas </span> and <span class="bold">
+          journey map </span>to <span class="bold">better understand target users' goals, needs, and frustration.</span>
+      </p>
+      <figure>
+        <img class="rwd-img" src="rc_contents/define_persona.jpg" alt="">
+        <figcaption class="figcaption">Persona and Journey Map.</figcaption>
+      </figure>
+    </section>
+    <section class="process">
+      <h2>Problem Statement</h2>
+      <p>
+        Based on previous <span class="italic">discover</span> and <span class="italic">define</span> stages, we finally
+        wrote user problem statement to clearly define the problem we will address.</span>
+      </p>
+      <figure>
+        <img class="rwd-img" src="rc_contents/define_user_problems.jpg" alt="">
+        <figcaption class="figcaption">User problem statement based on persona and journey map.</figcaption>
+      </figure>
+    </section>
+    <section class="process">
+      <h2>Ideation Sprint</h2>
+      <p>In <span class="italic">Develop</span> phase, I should consider WHAT to deliver, a <span class="bold">service
+          blueprint in order to address the problem.
+        </span> To do this, team members conducted <span class="bold">ideation sprint</span>
+        . Each member had 15 minutes of allotted time to come up with 30+ ideas to address users’ problems.
+        <br><br>After exploring diverse ideas through ideation sprint and team discussion, <span class="bold">each member picked the ideas that he or she wanted to focus on and decided to design one's own solution</span> based on individual insight. <span class="bold">
+        </span> 
+      </p>
+      <figure>
+        <img class="rwd-img" src="rc_contents/ideation_sprint.jpg" alt="">
+        <figcaption class="figcaption">After creative ideation sprint, members voted for the best ideas and discussed
+          its possibilities.</figcaption>
+      </figure>
+      <!-- <figure>
+        <img class="rwd-img" src="rc_contents/funnel_vision.jpg" alt="">
+        <figcaption class="figcaption">Funnel vision have narrowed down my ideas to three, which became service key features.</figcaption>
+      </figure> -->
+    </section>
+    <section class="process">
+      <h2>Service key features and concepts</h2>
+      <p>
+        Based on my personal insight, I finalized <span class="bold">service key
+          features,
+          service concepts to deliver unique UX values.</span>
+      </p>
+      <figure>
+        <img class="rwd-img" src="rc_contents/ux_values.jpg" alt="">
+        <figcaption class="figcaption">Route Creator's key service features.</figcaption>
+      </figure>
+      <figure>
+        <img class="rwd-img" src="rc_contents/service_keywords.jpg" alt="">
+        <figcaption class="figcaption">Concept keywords and its core UX values to deliver.</figcaption>
+      </figure>
+    </section>
+    
+    <section class="process">
+      <h2>User Flow & Wireframes</h2>
+      <p>In <span class="italic">Deliver</span> phase, based on the previous processes, I drew <span class="bold">user flow chart</span> and <span class="bold">wireframes</span>. It was a great opportunity for me to think about information architecture and potential usability issues.
+      </p>
+      <br>
+      <a target="_blank" href="rc_contents/flow_wireframe_detail.pdf" class="button" style="style=vertical-align:middle">View
+        full User flow & Wireframes </a>
+      <figure>
+        <img class="rwd-img" width="100%" src="rc_contents/user_flow_chart.png" alt="">
+      </figure>
+      <!-- <figure>
+        <img class="rwd-img" width="100%" src="rc_contents/wireframes.jpg" alt="">
+      </figure> -->
+    </section>
+    <!-- <section class="process">
+      <h2>User Flow & Wireframes</h2>
+      <p>In <span class="italic">Deliver</span> phase, based on the previous processes, I drew <span class="bold">user flow</span>. After, I created <span class="bold">wireframes</span>
+        and had a feedback session to finalize design.
+      </p>
+      <figure class="final">
+        <img class="rwd-img" src="rc_contents/rc_test.png" alt="">
+        <figcaption class="figcaption">User Flow Chart.</figcaption>
+      </figure>
+      <figure class="final">
+        <img class="rwd-img" src="rc_contents/wireframe.jpg" alt="">
+        <figcaption class="figcaption">After showing this wireframes, I held a feedback session.</figcaption>
+      </figure>
+    </section> -->
+
+    <!-- <section class="process">
+      <h2>Design Inspiration: Mindmap & Moodboard</h2>
+      <p> Now I started brain-storming to generate UI design ideas through <span class="bold">keywords
+          mindmap.</span>
+        After, selecting core design concepts, I drew <span class="bold">moodboard</span> with inspiration from color,
+        image, and keywords.
+      </p>
+      <figure>
+        <img class="rwd-img" src="rc_contents/mindmap.jpg" alt="">
+        <figcaption class="figcaption">Design keywords mindmap.</figcaption>
+      </figure>
+      <figure>
+        <img class="rwd-img" src="rc_contents/moodboard.jpg" alt="">
+        <figcaption class="figcaption">Moodboard with color, service concepts, images inspiration.</figcaption>
+      </figure>
+    </section> -->
+    
+    <section class="process">
+      <h2>User Feedback & Design Iteration</h2>
+      <p>
+        I tested lo-fidelity wireframes by assigning users key tasks to complete. I was able to receive various feedback, which allowed me to iterate my design over and over again.
+      
+        
+        <br><br>
+        <span class="bold">1) Search bar on home screen is confusing!</span>
+        <br>
+        I received several feedback regarding search bar on home screen. This confuses users as it does not do general search as expected, but it is existed only for content search (saved routes). 
+        <br><br>
+        <span class="bold">2) Floating Action Button (FAB) on home screen is distracting!</span>
+        
+        <br>Some mentioned that the location of FAB might disturb users browsing/focusing on contents. Some also commented  that they prefer tap bar as a navigation, rather than FAB.
+        <br><br>
+        <span class="bold">3) Some screens look too wordy!</span>
+        <br> Some mentioned that they would prefer having less or no text on screens. Also, they suggested that as I have guide tap on bottom navigation, wordy descriptions on each screen are not necessary. 
+      </p>
+      
+    </section>
+
+<section class="process">
+  <h2>Final Design</h2>
+  <p>
+      Based on all precious feedbacks, I created final design. 
+      <figure class="final">
+        <img class="rwd-img" src="rc_contents/final_design.jpg" alt="">
+      </p>
+      
+            </section>
+    
+<!-- <section class="overview">
+  <h2>Prototyping & Key Features</h2>
+  <p>
+    <div class="row">
+      <div class="column"><br><br><br><br><br><span class="keytitle">1. Onboarding & Login</span>
+        <br><br><br>Splash and onboarding screens allow users to quickly learn about the application.
+        <br><br>Users can either use social accounts or use email address to login.
+      </div>
+      <div class="column"><video class="video" width="90%" src="rc_contents/video/test.mp4" autoplay controls loop
+          muted></video>
+      </div>
+    </div>
+  </p>
+  <p>
+    <div class="row">
+      <div class="column"><br><br><br><br><span class="keytitle">2. Search & Add Places </span>
+        <br><br><br>Users can search places by name or address and add those places to <span class="italic">Creator</span>
+        tap like shopping cart.
+        <br><br>After the search, users can either keep searching to add more places to <span class="italic">Creator</span>
+        tap or directly going to <span class="italic">Creator</span> tap to create their own route.
+      </div>
+      <div class="column"><video class="video" width="90%" src="rc_contents/video/new/2_search.mp4" autoplay controls
+          loop muted></video>
+      </div>
+    </div>
+  </p>
+  <p>
+    <div class="row">
+      <div class="column"><br><br><br><span class="keytitle">3. Create Your Route </span>
+        <br><br><br><span class="italic">Creator</span> tap is like a shopping cart. Users can always save and subtract
+        places they wish to go.
+        <br><br>Users can also review essential information about the places. Once users decide all the places they
+        want to add to their itinerary, users finally put their starting point to create their own route.
+      </div>
+      <div class="column"><video class="video" width="90%" src="rc_contents/video/3_new.mp4" autoplay controls loop
+          muted></video>
+      </div>
+    </div>
+  </p>
+  <p>
+    <div class="row">
+      <div class="column"><br><br><span class="keytitle">4. Enjoy and Save Your Route</span>
+        <br><br><span class="italic">Route Creator</span> immediately creates the fastest route based on places they
+        added to their <span class="italic">Creator</span> tap. They can also view <span class="italic">Direction</span>
+        to see transportation and <span class="italic">Near Spots</span> to see what other popular places are nearby.
+        <br><br>Users can save those routes and find them on home screen. <span class="italic">Guide</span> tap will
+        provide a quick guide for the application and overall travel tips.
+      </div>
+      <div class="column"><video class="video" width="90%" src="rc_contents/video/new/4_enjoyroute.mp4" autoplay
+          controls loop muted></video>
+      </div>
+    </div>
+  </p>
+</section> -->
+      
+        <!-- <section class="overview">
+          <h2>Why this solution?</h2>
+          <p>
+            <span class="bold">1) Save your time and effort</span>
+            <br>Although there have been many travel applications, many users have problems that they still need to spend
+            substantial time and effort to make a solid travel itinerary.
+            <span class="italic">Route Creator</span> would allow users to save their wish-places whenever, and create their
+            unique routes based on users' input immediately.
+            <br><br> <span class="bold">2) Change your plans flexibly and quickly</span>
+            <br>From user research, users have problems when they have to spend too much time when changing their travel plans
+            unexpectedly.
+            Through <span class="italic">Route Creator</span>, users can always add or subtract desired places and re-create
+            their own route instantly.
+        
+            <br><br> <span class="bold">3) One-stop solution for your travel plan </span>
+            <br>From user research, users use average two applications when making travel plans, which is not desirable. <span
+              class="italic">Route Creator</span> not only creates unique routes for users, but also provides essential
+            information regarding their travel plan within the application.
+        
+        
+            <br><br> <span class="bold">4) The concept of route (shopping) cart is creative, original and effective. </span>
+            <br>From user testing, users were very satisfied with the idea of route cart, just like shopping cart. Users can
+            always add and subtract <span class="italic">wishlisted-places into route cart</span> and immediately create their
+            own route quickly and easily.
+        
+          </p>
+        </section> -->
+  
+    
+    
+    <section class="process">
+      <h2>Impact & Reflection</h2>
+      <p>Our team later gathered and voted for the best design among the solutions each member created. <span class="italic bold">Route Creator</span> received the most responses, and our team made it to 3rd place in in-house design competition among 23 other teams with this application.
+
+
+        This project gave me three important takeaways.<br><br>
+        <span class="bold">One: Although the market is red ocean, opportunities exist.</span>
+        <br>When I was initially given the project, I was worried that the great number of travel apps available might
+        make
+        it hard for me to come up with fresh ideas. However, I’ve found that there are always needs untapped, which
+        means
+        tailored research along with keen insights can always reveal opportunities.
+        <br><br> <span class="bold">Two: Feedbacks make everything “so much” better.</span>
+        <br>From UX research to design, I’ve received tons of feedback not only from users but also other designers
+        or
+        project managers. Users’ feedbacks are the core part of everything, helping me to fully empathize with their
+        need
+        so that I don't over-rely on my personal opinions. Other designers’ feedback allowed me to further consider
+        details
+        of my design based on professional UX and aesthetic views. Project managers’ feedback allowed me to consider
+        the
+        business value of my product.
+        <br><br> <span class="bold">Three: Great ideas are always coming from team discussions.</span>
+        <br>In this team setting, I truly enjoyed our team discussion and ideation sprint sessions. There were always great ideas coming from our team discussions and I realized the importance of being open to others views and ideas and embracing diversity. There are always great advantages of working together.
+    </section>
+
+
+    <br><br><a class="next" href="itrack.html">
+      Next: iTrack UX Web Design
+    </a>
+  </article>
+    <footer class="footer">
+    
+      <address>
+        <!-- <a class="email" href="mailto:ezshin@umich.edu">ezshin@umich.edu</a>
+         <a class="Resume" target="_blank" href="resume/aprilshin_resume_sep18.pdf">     ㆍ  Resume </a>
+         <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/aprileshin/">     ㆍ  Linkedin </a> -->
+        <!-- <a class="medium" target="_blank" href="#">   ㆍ  Medium  </a> -->
+        <!-- Add font awesome icons -->
+        <a target="_blank" href="https://dribbble.com/april_e_shin" class="fa fa-dribbble"></a>
+        <a target="_blank" href="https://medium.com/@ezzyy04" class="fa fa-medium"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/aprileshin/" class="fa fa-linkedin"></a>
+        <a target="_blank" href="mailto:ezshin@umich.edu" class="fa fa-google"></a>
+      </address>
+      <small class="copyright">&copy; 2018 Designed & Coded by April Euljin Shin.</small>
+    </footer>
+
+  <script>$('.image-selector').lightzoom({
+      glassSize: 160, zoomPower: 1.8
+    });</script>
+</body>
+
+</html>

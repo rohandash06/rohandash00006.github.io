@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LinkedIn - UX/UI Design</title>
+  <link rel="shortcut icon" href="img/favicon_logo3.ico">
+  <link rel="apple-touch-icon" href="img/favicon_logo3.ico">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/linkedin.css">
+  <link type="text/css" href="css/magnifier.css" rel="stylesheet">
+  <link type="text/css" href="css/glassstyle.min.css" rel="stylesheet">
+  <script src="js/topbutton.js"></script>
+  <!-- <script src="js/jquery.min.js"></script>
+  <script src="js/lightzoom.min.js"></script> -->
+
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="logo">
+      <a href="index.html">
+        <img src="img/logo_new3.png" width="55%" height="auto" alt="">
+      </a>
+    </h1>
+    <nav aria-label="네비게이션">
+      <ul class="nav-menu">
+        <li class="nav-portfolio">
+          <a href="index.html">Portfolio</a>
+        </li>
+        <li class="nav-about">
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <article class="route">
+    <div class="route-wrap">
+      <h1> LinkedIn Design Exercise
+        <p class="rc-description">
+          Connect to classmates who can be
+          <br> 
+          lifelong mentors, best teams, or help you land your dream job
+        </p>
+      </h1>
+      <p class="rc-details">
+        <span class="rc-details-heading">Type</span> Individual Project
+        <br>
+        <span class="rc-details-heading">Role</span> UX Designer
+        <br>
+        <span class="rc-details-heading">Tools</span> Sketch, Adobe Illustrator, Adobe Photoshop, Protopie
+        <br>
+        <span class="rc-details-heading">Timespan</span> Spring 2019 | One week
+        <br>
+        <!-- <span class="rc-details-heading">Service Slogan</span> Share your skills, make some money, and Go Blue!
+        <br> -->
+      </p>
+    </div>
+    <figure>
+      <img class="rwd-img" src="linkedIn_contents/linkedin_mainimg.jpg" width=100% height=auto alt="">
+    </figure>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"> Go to top</button>
+    <section class="overview">
+      <h2>The Challenge</h2>
+      <p>LinkedIn is a place where people can connect to people they know, in order to share professional experience and
+      opportunities. Professional networking can begin at any point, even in school. Increasingly, students are relying on
+      their mobile address book, and not their email address book, to manage their contacts.
+        <br><br><span class="bold">Design an experience that helps college students discover and connect to their classmates, without relying on email.</span>
+        
+      </p>
+   
+      <main class="main" id="research">
+        <section class="approach">
+          <h2>Re-define the challenge</h2>
+          <p>
+            There are some keywords that need to be clearly re-defined for this challenge:
+            <br><br> - <span class="bold">College students</span>: <span class="italic">all</span> levels of college students including undergraduate, graduate, and PhD
+            <br> - <span class="bold">Classmates</span>: peers physically at the same school who have met, or who have not met before <span class="italic"></span>
+            
+            <br> - <span class="bold">Without relying on email</span>: without using <span class="italic">any</span> features of email 
+            <p>
+              <br>Given the fact that LinkedIn specializes in professional networking, I assumed that 
+              all levels of college students want to develop connections with classmates through LinkedIn in order to:
+              
+              <br><br><span class="bold">1) view classmates' profiles to better understand their recruiting status
+              <br> 2) share previous job experiences</span>
+              <br><span class="bold">3) find peers who can work on any and all types of projects together for career development </span>
+
+              <br><br>After re-defining the challenge and having  initial assumptions, I started to delve into the research phase.
+            </p>
+        </section>
+      </main>
+      <section class="process">
+        <h2>User Research: Survey & Interviews</h2>
+        <p>
+          Keeping the initial assumptions in mind, my research goal was to better understand a college student's motivation and behavior when connecting to classmates; this would help me to validate my assumptions. The most imperative question for me was: <span class="bold">if they want to connect to classmates through LinkedIn, <span class="italic">why?</span> </span> 
+          
+          <br><Br>Also, it's important to know that <span class="bold">how users generally feel about LinkedIn's current features and how its features do or do not help students connect with classmates.</span> Plus, I would like to know <span class="bold">what kinds of features of email have motivated students to use the service frequently</span> when they want to connect with classmates.
+
+          <br><br>The following are the core questions I wanted to address through research:
+          <br><br><span class="bold">
+            User:</span>
+           <br>1. What does "connect" mean to college students? 
+            <br>2. Why do students want to connect with their classmates through LinkedIn? What are their core motivations?
+            <br>3. How do students connect with classmates? Via what methods and why?
+            <br>4. What expectations do college students have for LinkedIn when they use the service?
+          <br><br><span class="bold">
+            LinkedIn current product & Email:</span>
+           <br>1. Which of LinkedIn's features help students get connected with their classmates?
+            <br>2. Which parts are the most challenging when connecting with classmates through LinkedIn?
+            <br>3. What are the greatest strengths of email when it helps students connect with their classmates?
+
+            <br><br>To better understand the problem and needs, I tried to survey and interview as many students as possible, and ended up conducting <span class="bold">survey with 50+ students and 10 in-depth user interviews.</span>
+
+            <figure>
+              <img class="rwd-img" src="linkedIn_contents/survey.png" alt="">
+              <figcaption class="figcaption"> Conducted survey  with 50+ college students.</figcaption>
+            </figure>
+            <figure>
+              <img class="rwd-img" src="linkedIn_contents/user_interview.jpg" alt="">
+              <figcaption class="figcaption"> Conducted 10 in-depth qualitative interviews with college students.</figcaption>
+            </figure>
+           
+        </p>
+      </section>
+      <section class="process">
+        <h2>Affinity Map & Key Insights</h2>
+        <p> Based on data from survey and qualitative interviews, I used Affinity map to gather data and organize them into groups based on their relationship. Some key insights and user needs I found include:
+        <br><br> 
+          1)<span class="bold"> Students are looking for an exclusive space that allows them to find <span class="italic">classmates</span>  for their personal/coursework projects: </span> LinkedIn can be an optimal platform for them to validate peers' working capabilities and recruit.<br><br>
+          2) <span class="bold">Students are looking for an exclusive space that allows them to share <span class="italic">the most recent recruiting experience</span>: </span> students especially want to learn and share their interview experiences from peers.<br><br>
+          3) <span class="bold">Students are looking for alumni directory <span class="italic">based on industry</span>:</span> students want to find all alumni based on industry and seek mentorship and advice.<br><br>
+          
+          4) <span class="bold">Students are satisfied with the fact that almost everyone uses email and people are <span class="italic">quick to respond</span>: </span> students found that LinkedIn messaging function serves as a part of the entire service, so overall, users do not check it as regularly as they do their email, nor do they respond as quickly.<br><br>
+          
+        
+        </p>
+        <figure>
+          <img class="rwd-img" src="linkedIn_contents/affinitymap.jpg" alt="">
+          <figcaption class="figcaption"> Affinity map that combines all important findings from user research.</figcaption>
+          <!-- <img class="rwd-img" src="el_contents/interviews.jpg" alt="">
+        <figcaption class="figcaption"> Conducted in-depth interviews.</figcaption> -->
+
+        </figure>
+      </section>
+      
+      <section class="process">
+        <h2>Persona & Current User Flow</h2>
+        <p>
+         Based on key insights from the previous phase, I created a persona to better understand target users' needs and frustrations. After, I looked at current LinkedIn features and analyzed current user flows related to previous college students' needs.</p>
+       
+        <figure>
+          <img class="rwd-img" src="linkedIn_contents/persona.jpg" alt="">
+          <figcaption class="figcaption">Persona creation based on user research.</figcaption>
+        </figure>
+        <figure>
+          <img class="rwd-img" src="linkedIn_contents/user_flow.jpg" alt="">
+          <figcaption class="figcaption">A quick view of the current user flow to address abovementioned students' need</figcaption>
+        </figure>
+     
+      </section>
+      <section class="process">
+        <h2>Wireframing & User Testing</h2>
+        <p>
+          Based on previous phases, I decided key features for my design solutions. After, I began wireframing, and tested with users to gain feedback and iterate my design.
+
+          <br><br> The following are key features in my design solution:
+
+          <br><br>1) <span class="bold">
+          Switch to student mode:</span> students can enjoy exclusive space only for college students. 
+          <br><br>2) <span class="bold">
+          Find classmates and work together:</span> students can look for a) <span class="italic">opportunities</span> working together with classmates, or b) <span class="italic">classmates</span> who have similar career interests. 
+          <br><br>3) <span class="bold">
+          Share the most recent experiences:</span> students can share their recruiting experiences including recent interviews or preparation, and also find someone to ask for help or advice.
+          <br><br>4) <span class="bold">
+          Find your alumni in your industry:</span> students can easily find alumni in the industry they are interested in and seek mentorship.
+          <br><br>5) <span class="bold">Use a dedicated LinkedIn's Messenger application:</span> students can install LinkedIn's dedicated messenger app for mobile devices that allows you to chat with your LinkedIn connection more quickly and conveniently.
+        </p>
+        <figure>
+          <img class="rwd-img" src="linkedIn_contents/wireframing1.jpg" alt="">
+          <figcaption class="figcaption">Students can switch to student mode and enjoy exclusive spaces.</figcaption>
+        </figure>
+        <figure>
+          <img class="rwd-img" src="linkedIn_contents/wireframing2.jpg" alt="">
+          <figcaption class="figcaption">Students can connect with classmates based on career interests.</figcaption>
+        </figure>
+        <figure>
+          <img class="rwd-img" src="linkedIn_contents/wireframing3.jpg" alt="">
+          <figcaption class="figcaption">Students can find alumni based on industry and I did a quick poll when choosing "showing alumni" UI screen.</figcaption>
+        </figure>
+      </section>
+      
+        <section class="process">
+          <h2>Final Design</h2>
+          <p>
+          </p>
+          <figure>
+            <img class="rwd-img" width="100%" src="linkedIn_contents/hi-fidelity.jpg" alt="">
+          </figure>
+        </section>
+
+
+        <section class="overview">
+          <h2>Prototyping & Key Features</h2>
+          <p>
+            <div class="row">
+              <div class="column"><br><br><span class="keytitle">1. Switch to Student Mode</span>
+                <br><br><br>College students have options for registering a student account and can input information about their university.
+                <br><br>This would allow college students to not only continue exploring outside of college career opportunities, but also enjoy exclusive space for college students in LinkedIn.
+                
+              </div>
+              <div class="column"><video class="video" width="100%" src="linkedIn_contents/video/1.mp4"
+                  autoplay controls loop muted></video>
+              </div>
+            </div>
+          </p>
+          <p>
+            <div class="row">
+              <div class="column"><br><br><br><span class="keytitle">2. Discover & Work Together </span>
+                <br><br><br>Students can discover classmates who have similar career interest through LinkedIn profile, and they can validate peer capabilities with each other. 
+                <br><br>They can either find opportunities through postings by classmates or post their own things to find the best team members.
+                <br><br>Once students find something attractive, students can request to join the work by using auto message.
+
+
+              </div>
+              <div class="column"><video class="video" width="100%" src="linkedIn_contents/video/2.mp4" autoplay
+                  controls loop muted></video>
+              </div>
+            </div>
+          </p>
+          <p>
+            <div class="row">
+              <div class="column"><br><br><br><span class="keytitle">3. Share your latest experiences</span>
+                <br><br><br>User research indicates that students want to find classmates who have recent recruiting experiences.
+                <br><br>This <span class="italic">Share</span> tap would allow students to post any recent career-related experience or information that they want to share with classmates.
+                <br><br>Based on postings, students can ask for advice, mock interviews or exchange valuable tips and information.
+              </div>
+              <div class="column"><video class="video" width="100%" src="linkedIn_contents/video/3.mp4" autoplay
+                  controls loop muted></video>
+              </div>
+            </div>
+          </p>
+          <p>
+            <div class="row">
+              <div class="column"><br><br><span class="keytitle">4. Find alumni in your industry</span>
+
+                <br><br>Students can find alumni through <span class="italic">School tap</span>, where they see all industries and find which alumni work for specific industries.
+                <br><br>Also, the solution would suggest top-matched alumni based on students' profile. This would enable students to easily find the best person to ask for advice, mentorship, or referrals.
+                <br><br>Students can also use auto-message when initiate the conversation.
+              </div>
+              <div class="column"><video class="video" width="100%" src="linkedIn_contents/video/4.mp4" autoplay
+                  controls loop muted></video>
+              </div>
+            </div>
+          </p>
+          <p>
+            <div class="row">
+              <div class="column"><br><br><span class="keytitle">5. Use dedicated messaging service</span>
+
+                <br><br>One of the primary reasons for why students prefer email over LinkedIn was because users do not check LinkedIn message regularly (since it only serves as a part of the entire service), so there is a delay in responding. 
+                <br><br>In order to address this problem, I suggest offering a separate messaging service, which solely focuses on messaging. 
+                <br><br>Doing this would help users facilitate communication through LinkedIn, and I believe Facebook messenger application can be a good bench-marking point.
+              </div>
+              <div class="column"><video class="video" width="100%" src="linkedIn_contents/video/5.mp4" autoplay
+                  controls loop muted></video>
+              </div>
+            </div>
+          </p>
+          <p>
+            
+        </section>
+
+        <section class="process">
+          <h2>Reflection</h2>
+          <p>
+            This project gave me two important takeaways.<br><br>
+            <span class="bold">One: re-defining problem phase and assumption-driven approach played a significant role.</span>
+            <br><br>When I first started this project, I re-defined the problem and started with some initial assumptions. Later, through user research, I validated these assumptions, and it turned out that it helped me a lot when narrowing the scope, conducting research and saving time. It also helped me not to lose the track of the research focus. Although not all assumptions were correct, by validating initial assumptions, I was able to facilitate the overall process more efficiently.
+            
+           
+
+            <br><br> <span class="bold">Two: user research is important when improving current products.</span>
+            <br><br>When I was first given the project, I decided to spend more than a half of the week in conducting user research. I tried to recruit users as many as possible, and in the end, I was able to conduct surveys with 50+ users and 10 user in-depth interviews. This research really helped me better understand user's motivations and frustrations for the existing product. From there, I was able to find design opportunities; it allowed me to have deeper understanding of the users. 
+            
+            <br><br> <span class="bold">Lastly, if I were make any difference in this project, I would: </span>
+            <br><br>1) take "feasibility" into consideration as some of my solutions included launching a new product,
+            
+            <br>2) broaden the user research spectrum, which would allow me to have diversity in users - I only surveyed and interviewed Michigan students,
+            <br>3) conduct competitive analysis and more user testings so I can come up with better ideas for solutions and understand current trends in connecting with peers for college students,
+            
+            <br>4) explore onboarding experience design for both college student version and independent messenger application,
+            <br>5) think deeply more about how my solution can affect non-student users, ensuring my solution do not negatively affect the majority of LinkedIn users.
+
+        </section>
+
+
+
+        <br><br>
+        <a class="next" href="route_creator.html">
+          Next: Route Creator UX Design
+        </a>
+  </article>
+
+  <footer class="footer">
+
+    <address>
+      <!-- <a class="email" href="mailto:ezshin@umich.edu">ezshin@umich.edu</a>
+     <a class="Resume" target="_blank" href="resume/aprilshin_resume_sep18.pdf">     ㆍ  Resume </a>
+     <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/aprileshin/">     ㆍ  Linkedin </a> -->
+      <!-- <a class="medium" target="_blank" href="#">   ㆍ  Medium  </a> -->
+      <!-- Add font awesome icons -->
+      <a target="_blank" href="https://dribbble.com/april_e_shin" class="fa fa-dribbble"></a>
+      <a target="_blank" href="https://medium.com/@ezzyy04" class="fa fa-medium"></a>
+      <a target="_blank" href="https://www.linkedin.com/in/aprileshin/" class="fa fa-linkedin"></a>
+      <a target="_blank" href="mailto:ezshin@umich.edu" class="fa fa-google"></a>
+    </address>
+    <small class="copyright">&copy; 2018 Designed & Coded by April Euljin Shin.</small>
+  </footer>
+
+  <script>$('.image-selector').lightzoom({
+      glassSize: 200, zoomPower: 1.8
+    });</script>
+</body>
+
+</html>

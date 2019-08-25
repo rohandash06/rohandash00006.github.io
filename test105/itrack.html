@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>iTrack Redesign - User Experience Design</title>
+  <link rel="stylesheet" href="css/itrack.css">
+  <link type="text/css" href="css/magnifier.css" rel="stylesheet">
+  <link type="text/css" href="css/glassstyle.min.css" rel="stylesheet">
+  <script src="js/topbutton.js"></script>
+  <!-- <script src="js/jquery.min.js"></script>
+  <script src="js/lightzoom.min.js"></script> -->
+
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="logo">
+      <a href="index.html">
+        <img src="img/logo_new3.png" width="55%" height="auto" alt="">
+      </a>
+    </h1>
+    <nav aria-label="네비게이션">
+      <ul class="nav-menu">
+        <li class="nav-portfolio">
+          <a href="index.html">Portfolio</a>
+        </li>
+        <li class="nav-about">
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <article class="route">
+    <div class="route-wrap">
+      <h1>iTrack Re-design Project
+        <p class="rc-description">
+          Re-design University of Michigan Information School's
+          <br>comprehensive online recruiting system
+        </p>
+      </h1>
+      <p class="rc-details">
+        <span class="rc-details-heading">Type</span> Team Project | Sunny Kim, April Shin
+        <br>
+        <span class="rc-details-heading">Role</span> UX/Web Designer
+        <br>
+        <span class="rc-details-heading">Tools</span> Sketch, Balsamiq, Adobe Illustrator, Adobe Photoshop
+        <br>
+        <span class="rc-details-heading">Timespan</span> Fall 2018
+   
+        
+      </p>
+    </div>
+    <figure>
+      <img class="rwd-img" src="itrack_contents/hanshake.jpg" width=100% height=auto alt="">
+    </figure>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"> Go to top</button>
+    <section class="overview">
+      <h2>The Challenge</h2>
+      <p>
+        The University of Michigan School of Information has its own comprehensive online recruiting system 
+        <span class="bold">“iTrack,”</span>
+        which
+        allows students to apply for jobs, research companies, gain industry contacts and manage their job search.
+
+        <br><br>However, as target users ourselves, we had a hard time navigating through iTrack. As students of the
+        University of
+        Michigan School of Information, we decided to challenge ourselves by redesigning the user experience of
+        iTrack's
+        landing page.
+      </p>
+    </section>
+    <section class="goals">
+      <h2>Design Process</h2>
+      <p>
+        We followed the below user-centric design process.
+        <div class="goals-three">
+          <br>1) Analyze the current Information Structure
+          <br> 2) User Research & Interview
+          <br> 3) User Problem Statement
+          <br> 4) Competitive Analysis
+          <br> 5) Redesign ideal user flow
+          <br> 6) Ideation & wireframing
+          <br> 7) Final Design
+        </div>
+      </p>
+    </section>
+    <section class="approach">
+      <h2>Current Information Architecture</h2>
+      <p>
+        <span class="bold">Information Architecture (IA)</span> is the way of deciding how to organize and structure the contents of the website
+        or
+        mobile applications. Its goal is to users <span class="bold">find the right information and complete tasks.</span>
+
+        <br><br>The importance of well-designed IA can’t be stressed enough because it <span class="bold">directly impacts the overall
+        user experience and
+        user satisfaction.</span> To better understand the current IA of ITrack’s landing page, we mapped out their current
+        content
+        and color coded the related sections.
+
+        <br><br>First, we organized the contents on the landing page into 7 categories:
+
+        <div class="goals-three">
+          <br>Landing Page Functions:
+          <br><br> 1) Current events
+          <br>2) Job search
+          <br>3) UMSI announcement
+          <br>4) User Profile
+          <br>5) Advising scheduling
+          <br>6) UMSI resource
+          <br>7) Social media integration
+        </div>
+
+        <br><br>Then, we narrowed these down to 4 categories.
+        <figure>
+          <img class="rwd-img" src="itrack_contents/IA_colorcode.png" alt="">
+        </figure>
+
+        <br>Based on the 4 categories, below is the analysis of current iTrack landing page desktop view.
+        <figure>
+          <img class="rwd-img" src="itrack_contents/current_view.jpg" alt="">
+        </figure>
+      </p>
+    </section>
+    <section class="process">
+      <h2>Landing Page Perception & User Research</h2>
+      <p>
+        We asked users to browse through iTrack’s landing page on desktop to understand their pain points and evaluate
+        current
+        landing page interface.
+        <div class="question">
+          <br><br>1. What is your first impression of the iTrack’s landing page?
+        </div>
+        <div class="answer-group">
+          <br><span class="red">Unorganized: </span><span class="answer"> “I can’t find what I need. There’s just too
+            much going on.”</span>
+          <br><span class="red">Bombarded: </span><span class="answer"> “The contents is just all over the place.”</span>
+          <br><span class="red">Lack of Focus: </span><span class="answer"> “The main announcement banner is
+            overwhelming and I don’t really care.”</span>
+        </div>
+        <div class="question">
+          <br><br>2. What do you like about the landing page the most?
+        </div>
+        <br><span class="red">Credibility: </span><span class="answer"> “I like credible resources validated through
+          UMSI.”</span>
+        <br>
+
+        <div class="question">
+          <br><br>3. What do you like about the landing page the least?
+        </div>
+        <div class="answer-group">
+          <br><span class="red">Login process: </span><span class="answer"> “It is a real hassle that it requires me to
+            log in every time users click on the website logo."</span>
+          <br><span class="red">Redundant information: </span><span class="answer"> “I hate it requires me to log in
+            every time clicking on the website logo."</span>
+          <br><span class="red">Lack of navigation: </span><span class="answer"> “Too hard to navigate and find
+            necessary information."</span>
+          <br><span class="red">Lack of importance hierarchy: </span><span class="answer"> “Too many unimportant
+            information highlighted."</span>
+          <br><span class="red">Account setup process: </span><span class="answer"> “I experienced inconvenient user
+            setup process."</span>
+        </div>
+      </p>
+
+      <section class="process">
+        <h2>User Problem Statement</h2>
+        <p>
+          Based on our previous user research, current iTrack users are having difficulties in:
+          <br><br><span class="italic">1. Locating desired information to complete target tasks</span>
+          <figure>
+            <img class="rwd-img" src="itrack_contents/hard_find.png" alt="">
+          </figure>
+
+          <br><br><span class="italic">2. Focusing on relevant information in the midst of redundancy</span>
+          <figure>
+            <img class="rwd-img" src="itrack_contents/redundant_info.png" alt="">
+          </figure>
+        </p>
+      </section>
+      <section class="process">
+        <h2>Competitive Analysis</h2>
+        <p>In order to address such problems, we compared iTrack with top three existing recruiting platforms
+          Linkedin, Indeed,
+          and Glassdoor.
+        </p>
+        <figure>
+          <img class="rwd-img" src="itrack_contents/compe_analysis.jpg" alt="">
+        </figure>
+      </section>
+      <section class="process">
+        <h2>Ideal User Flow</h2>
+        <p>
+          Given useful insights from user research, IA and competitive analysis, we sat down re-organizing the “ideal
+          user flow”
+          of iTrack. We divided the users into four groups with different needs.
+
+          <br><br>Here is an ideal user flow chart we created:
+        </p>
+        <figure>
+          <img class="rwd-img" src="itrack_contents/ideal_user_flow.jpg" alt="">
+        </figure>
+      </section>
+      <section class="process">
+        <h2>Ideation</h2>
+        <p>
+          Based on what we had thus far, we brainstormed and started the ideation process. Each of us sketched our own
+          solution
+          and explained the reasoning behind the designs. After sharing the pros and cons of each design, we then
+          combined them
+          into a better solution.
+        </p>
+        <figure>
+          <img class="rwd-img" src="itrack_contents/ideation_2.jpg" alt="">
+          <img class="rwd-img" src="itrack_contents/ideation_1.jpg" alt="">
+        </figure>
+      </section>
+      <h2>Wireframe</h2>
+      <p>
+        After, we conducted wireframing based on our ideation sprint.
+        I used <span class="italic">balsamiq</span> to wireframe in this process.
+      </p>
+      <figure>
+        <img class="rwd-img" src="itrack_contents/itrack_redesign_wireframe.png" alt="">
+      </figure>
+    </section>
+    <section class="process">
+      <h2>User Feedback & Design Iteration</h2>
+      <p>
+        After the initial wireframing session, we felt like the information under User Profile section was
+        redundant. So,
+        we wanted to consolidate some of the features to eliminate redundant information and personalize the User
+        Profile
+        section.
+
+        <br><br>We conducted a quick user poll with 23 students at the University of Michigan School of Information to
+        see
+        which design
+        users would prefer. Out of 23 students, 16 students indicated they prefer the calendar layout.
+      </p>
+      <figure>
+        <img class="rwd-img" src="itrack_contents/prefer.jpg" alt="">
+      </figure>
+      <p>
+        After gaining user feedback, we decided to add a calendar that visually shows upcoming appointments and
+        career-related
+        events the user signed up for. Instead of displaying upcoming career-related events on the
+        <span class="italic">What’s coming up?</span> 
+        section,
+        this new calendar allows users to have <span class="bold">a better understanding of what is going on.</span>
+      </p>
+    </section>
+    <section class="process">
+      <h2>Final Design</h2>
+      <p>
+        After combining user insights on iTrack’s current landing page and new design ideas from ideation session, we
+        came up
+        with a new landing page for iTrack. This new landing page provides better user experience with its clean look
+        and
+        well-organized contents.
+      </p>
+      <figure>
+        <img class="rwd-img" src="itrack_contents/final_design.jpg" alt="">
+      </figure>
+      <figure>
+        <img class="rwd-img" src="itrack_contents/compare.jpg" alt="">
+        <figcaption class="figcaption">Before(left) vs After(right)</figcaption>
+      </figure>
+    </section>
+    <section class="process">
+      <h2>Design Changes and Reasoning</h2>
+      <p>
+        Followings are some of the reasonings on why we changed the design elements on iTrack’s new landing page.
+      
+        <br><br><span class="bold">1. Top Navigation bar</span>
+        <br><br><span class="italic">Why?</span> 
+        <br><br>In iTrack’s current system, the navigation bar on the top never plays its expected role. A random search bar located on
+        the top without any explanation leads users to question what to search for. Even though a navigation menu exists on the
+        left top corner, it is unclear and redundant in terms of contents organized within each category. This menu only
+        confuses the user’s experience on iTrack.
+        
+        <br><br>We propose a navigation bar with key four features that users could utilize the most : Events, Job Search, UMSI
+        Resources, and Profile. Each menu item is clearly distinct and guide the user to easily complete his or her target
+        tasks.
+        
+        <br><br><span class="bold">2. User-Centric Profile Section</span>
+        <br><br><span class="italic">Why?</span> 
+        <br><br>The current user profile on the top right corner of the landing page displays profile image, user name, favorite jobs,
+        and followed employees. However, this section doesn’t serves its full purpose as it doesn’t help users to check their
+        current application status nor advising sessions.
+        
+        <br><br>One of the concerns from user interview was that they don’t remember what info session or career events they have
+        rsvp’ed to attend. This new user profile allows each user to check their activities and track any upcoming events.
+        
+        <br><br><span class="bold">3. Card Layout</span>
+        <br><br><span class="italic">Why?</span> 
+        <br><br>Following the user feedback received from interviews, we decided to design a cleaner layout for upcoming events and
+        recommended job postings. As Upcoming Events and Job Posts sections are where users are most frequently looking for
+        information, we are highlighting these two sections with a more organized layout.
+      </p>
+    </section>
+    <section class="process">
+      <h2>Reflection</h2>
+      <p>
+        Through this project, I truly realized that 
+       <span class="bold">UX design might bring contents to new life.</span> 
+       During process, we were surprised that iTrack has its own countless useful information for students.
+       However, those contents were buried, hardly being recognized due to lack of user-centric web design.
+
+       <br><br>In this regard, the importance of UX cannot be underestimated at any point.
+      This is not only for users, but also for service providers whoever want to maximize
+       in utilizing their contents. 
+      </p>
+    </section>
+
+
+
+    <br><a class="next" href="index.html">
+      Next: Home
+    </a>
+  </article>
+  <footer class="footer">
+  
+    <address>
+      <!-- <a class="email" href="mailto:ezshin@umich.edu">ezshin@umich.edu</a>
+       <a class="Resume" target="_blank" href="resume/aprilshin_resume_sep18.pdf">     ㆍ  Resume </a>
+       <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/aprileshin/">     ㆍ  Linkedin </a> -->
+      <!-- <a class="medium" target="_blank" href="#">   ㆍ  Medium  </a> -->
+      <!-- Add font awesome icons -->
+      <a target="_blank" href="https://dribbble.com/april_e_shin" class="fa fa-dribbble"></a>
+      <a target="_blank" href="https://medium.com/@ezzyy04" class="fa fa-medium"></a>
+      <a target="_blank" href="https://www.linkedin.com/in/aprileshin/" class="fa fa-linkedin"></a>
+      <a target="_blank" href="mailto:ezshin@umich.edu" class="fa fa-google"></a>
+    </address>
+    <small class="copyright">&copy; 2018 Designed & Coded by April Euljin Shin.</small>
+  </footer>
+
+  <script>$('.image-selector').lightzoom({
+      glassSize: 160, zoomPower: 1.8
+    });</script>
+</body>
+
+</html>

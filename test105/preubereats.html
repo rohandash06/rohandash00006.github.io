@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Uber Eats - UX/UI Design</title>
+  <link rel="shortcut icon" href="img/favicon_logo3.ico">
+  <link rel="apple-touch-icon" href="img/favicon_logo3.ico">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/linkedin.css">
+  <link type="text/css" href="css/magnifier.css" rel="stylesheet">
+  <link type="text/css" href="css/glassstyle.min.css" rel="stylesheet">
+  <script src="js/topbutton.js"></script>
+  <!-- <script src="js/jquery.min.js"></script>
+  <script src="js/lightzoom.min.js"></script> -->
+
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="logo">
+      <a href="index.html"> <img src="img/logo_new3.png" width="100" alt="logo"></a>
+    </h1>
+    <nav aria-label="네비게이션">
+      <ul class="nav-menu">
+        <li class="nav-portfolio">
+          <a href="index.html">Portfolio</a>
+        </li>
+        <li class="nav-about">
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <article class="route">
+    <div class="route-wrap">
+      <h1> Uber Eats Mini Project
+        <p class="rc-description">
+          Help part-time Couriers optimally experience
+          <br>
+          Uber Eats platform to achieve their desired goals
+        </p>
+      </h1>
+      <p class="rc-details">
+        <span class="rc-details-heading">Type</span> Individual Project
+        <br>
+        <span class="rc-details-heading">Role</span> UX Designer/Researcher
+        <br>
+        <span class="rc-details-heading">Tools</span> Sketch, Adobe Illustrator, Adobe Photoshop, Protopie
+        <br>
+        <span class="rc-details-heading">Timespan</span> Spring 2019 | 2 weeks
+        <br>
+        <!-- <span class="rc-details-heading">Service Slogan</span> Share your skills, make some money, and Go Blue!
+        <br> -->
+      </p>
+    </div>
+    <figure>
+      <img class="rwd-img" src="preuber_contents/ubermain2.jpg" width=100% height=auto alt="">
+    </figure>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"> Go to top</button>
+    <section class="overview">
+      <h2>The Problem</h2>
+      <p><span class="italic">Uber Eats</span> has grown exponentially in recent years, as the product now drives many of Uber's sales. The way it works is to fill the
+      delivery needs of a user (Eater) by utilizing the time and transportation of another (Courier). In this regard, <span class="bold">the role
+      of these two stakeholders, Eater and Courier, is of utmost importance in Uber Eats business.</span>
+
+      <br><br>For this summer, I will be joining Uber Eats Courier team as a product design intern, and I was curious about the
+      problems my team is trying to solve; so, I asked. I was able to receive the answers from the team, and here are three
+      core problems that my team attempts to solve:
+
+      <br><br><span class="bold">
+        1) How might we help Couriers know how to be successful on the Uber platform? For example, when should they deliver? Where should they go to get the most dispatches? How to make the most money?
+        <br><br>
+        2) How might we help Couriers know where to go to find parking and have a successful order pick-up at a restaurant?
+        <br><br>
+        3) How might we help Couriers know how to successfully deliver to an Eater/Customer? And note any delivery instructions that need to be addressed?
+      </span>
+
+      <br><br>Based on what I received, I decided to run a short project. I especially would like to focus on the first prompt: <span class="italic">how might we help know how to be successful on the Uber platform?</span> - This question strikes me as the heart of everything, and I expect that the second and third problems can be addressed to
+      some extent through the process.
+      </p>
+
+      <main class="main" id="research">
+        <section class="approach">
+          <h2>Re-defining the Problem Space</h2>
+          <p>
+            It is always imperative to re-define the prompt clearly:
+            <br><br> <span class="bold">How might we help <span class="red">Couriers</span> know how to be <span class="red">successful</span> on the Uber platform? </span>
+           <br><br> <span class="bold red">Couriers</span>: Couriers can be classified according to a variety of criteria. For example: age, working hours (part-time /
+          full-time), delivery method (cars, bicycles, walking, etc.). Although accurate demographic information is needed, I thought I could divide Couriers into two types: <span
+            class="bold">Couriers who
+            deliver with a car, and Couriers who deliver without a car.</span>
+           <br><br> <span class="bold red">Successful</span>: The meaning of success may vary depending on the characteristics of Courier. In this case, success can be
+          defined as: <span class="bold">1) earning profits as much as desired through Uber Eats, and 2) having pleasant experience from registration
+          to delivery on the platform.</span>
+
+          <br><br>
+          
+          Based on the facts that <span class="bold">1) users must have a car to become a Couriers in my current city, Ann Arbor, Michigan, and 2) the
+          majority of users I can research are full-time student/young working professional</span>, I re-defined my problem as follow:
+
+          <figure>
+            <img class="rwd-img" src="preuber_contents/problem_statement.jpg" alt="">
+            <figcaption class="figcaption"> Re-defined target user problem statement.</figcaption>
+          </figure>
+
+         
+</span>
+
+
+            </p>
+        </section>
+      </main>
+      <section class="process">
+        <h2>User Research: Survey and Interviews</h2>
+        <p>
+          As re-defined previously, my target user for this project 1) has a car, and 2) is full-time student/working
+          professional. Keeping this in my mind, my research goals are to better understand and answer the following:
+
+          <br><br><span class="bold">Target Users:</span>
+          <br>
+          1. What does “part-time” mean to target users?
+          <br>2. How recognized/popular is Uber Eats as a food delivery platform?
+          <br>3. What does “being a Courier at Uber Eats” mean to target users?
+          <br>4. What are my target users’ expectation for Uber Eats if they decide to join as a Courier?
+          <br>5. Is Uber Eats a competitive option among other part-time jobs?
+          <br><br><span class="bold">Uber Eats Current Product & Competitors:</span>
+          <br>
+          1. What are the greatest strengths of Uber Eats when users join as a Courier?
+          <br>2. What are the most challenging parts of Uber Eats for a Courier?
+          <br>3. What are other competitors’ key strengths compared to Uber Eats?
+
+          <br><br>Accordingly, I conducted <span class="bold">survey with 80+ potential target users,</span> full-time students/working professionals. In addition, I
+          conducted <span class="bold">two in-depth interviews</span>, one with someone with experience as a Courier on Uber Eats, and one with someone
+          never used the service as either a Eater or Courier.
+
+          <figure>
+            <img class="rwd-img" src="preuber_contents/survey.jpg" alt="">
+            <figcaption class="figcaption"> Conducted survey with 80+ full-time students and working professionals.</figcaption>
+          </figure>
+          <figure>
+            <img class="rwd-img" src="preuber_contents/interview.jpg" alt="">
+            <figcaption class="figcaption"> Conducted 2 in-depth qualitative interviews.
+            </figcaption>
+          </figure>
+
+        </p>
+      </section>
+      <section class="process">
+        <h2>My Hands-on Experience</h2>
+        <p> I also wanted to have hands-on experience as a Courier; I asked my friends to do the delivery together - I needed help as I don’t own a car. I thoroughly explored every step from registration to delivery, which enabled me to build empathy with my target users.
+          
+          <figure>
+            <img class="rwd-img" src="preuber_contents/handson.jpg" alt="">
+            <figcaption class="figcaption">Waiting at the restaurants, picking up the orders, delivering to Eaters</figcaption>
+          </figure>
+          <figure>
+            <img class="rwd-img" src="preuber_contents/handson2.jpg" alt="">
+            <figcaption class="figcaption">All UI screens I had from registration to delivery</figcaption>
+          </figure>
+          
+        </p>
+       
+      </section>
+
+      <section class="process">
+        <h2>Key Findings & Insights</h2>
+        <p>
+          From both user research and hands-on experience, I discovered the following key findings and insights:
+          </p>
+        <figure>
+          <img class="rwd-img" src="preuber_contents/findings.jpg" alt="">
+          <figcaption class="figcaption"></figcaption>
+        </figure>
+
+      </section>
+      <section class="process">
+        <h2>Design Opportunity</h2>
+        <p>
+          Even though all findings deserve exploration, some are hard to address solely with design solutions. In this regard, I considered what I can solve as a designer, and discovered some design opportunities based heavily on my hands-on
+          experience and in-depth interview with an ex-courier.
+
+          <br><br>1) <span class="bold">
+            Progress bar when registering might be helpful:</span> Even if the user should upload 5+ documents as well as dealing with other screening process, it was hard for users to
+            know where they are and what to expect next in the process. I personally felt frustrated because I could not prepare all
+            required documents at once, as I was not informed of what’s next or what to prepare to expedite the process.
+          <br><br>2) <span class="bold">
+            Additional message on why users do not have various delivery methods might be helpful:</span> When I first saw that I only had an option delivering by car, I became confused. I have heard Uber Eats can be delivered by
+            bike, walk, etc., but on my screen, I couldn’t find other options besides a car. More importantly, there was no
+            explanation. I just had to assume myself that this was perhaps due to geographical factors.
+          <br><br>3) <span class="bold">
+            Providing Couriers with information regarding end destination, expected time and earning might be helpful:</span> From user interview, I found that the user wanted to know the final destination rather than only being informed pick-up
+            location first. It would be helpful for couriers if they have better information about the entire delivery journey in
+            detail before confirming requests.
+          <br><br>4) <span class="bold">
+          Providing Couriers with information regarding Eater’s gender:</span> There were feedbacks that Couriers, especially females, - even for ride-sharing service - feel unsafe when using the
+          platform. This was mainly because of the negative stories they heard before. In order to help such users feel more
+          comfortable, providing Eater’s gender by icons or illustration might be helpful.
+          <br><br>5) <span class="bold"> Settings that allow users to decide purpose of driving might be helpful (e.g. ride-sharing only? Courier
+          only? Or both?):</span> I only wanted to deliver but couldn’t find a way to change my setting for this. I was also confused that “am I only
+          receiving requests for Uber Eats? Or am I getting ride-sharing request too?” I finally realized that it’s shown when I
+          received the call. However, I wish I could set up the setting first depending on my preference just to be free from
+          potential mistakes accepting ride-sharing requests.
+          <br><br>6) <span class="bold">Mentioning “slide the button” might be more helpful than arrow mark:</span> As a novice user, as soon as I received the order, I couldn't pay attention to details of the screen, so I kept tapping
+          the “start delivery” button instead of sliding it. I tried several times and became embarrassed as I was not able to
+          accept the request. Later, I figured I should slide it to accept the call. The user I interviewed also highlighted this
+          as well, so I think the button may show “slide to delivery” instead start delivery with arrow mark – arrow mark is not
+          easily visible.
+        </p>
+        
+      </section>
+      <section class="process">
+        <h2>Competitive analysis: Grubhub</h2>
+        <p>
+          Before I jump into design solution, I would like to take a close look at how the other delivery works from courier end.
+          Although Grubhub does not function in the exact way as Uber Eats does, I choose Grubhub for competitive analysis as they
+          have been a dominant player in the market.
+
+          <br><br>I did this through thorough desk research and was able to find some key screens and insights as below:
+          <figure>
+            <img class="rwd-img" width="100%" src="preuber_contents/grubhub.jpg" alt="">
+          </figure>
+          </section>
+
+          
+        </p>
+        
+      </section>
+      
+      <section class="process">
+        <h2>Final Design</h2>
+        <p>
+        </p>
+        <figure>
+          <img class="rwd-img" width="100%" src="preuber_contents/final_design.jpg" alt="">
+        </figure>
+      </section>
+
+
+      <section class="overview">
+        <h2>Prototyping & Key Features</h2>
+        <p>
+          <div class="row">
+            <div class="column"><br><br><span class="keytitle">1. Know what you need</span>
+              <br><br><br>Users can know why they do or do not have various options on how to deliver. It might be depending on their location or etc. This design solution may enable users to know the reason for this, reducing potential confusion.
+              <br><br>Also, users can be well-prepared for initial registeration as a Courier; it would let users know all required documentations at once before jumping into the actual process. It will help users better understand what to prepare to expedite the registration process.
+
+            </div>
+            <div class="column"><video class="video" width="100%" src="preuber_contents/pressed_video/uber1.mp4" autoplay controls
+                loop muted></video>
+            </div>
+          </div>
+        </p>
+        <p>
+          <div class="row">
+            <div class="column"><br><br><br><span class="keytitle">2. Know where you are </span>
+              <br><br><br>By having progress bar on the top of the screen during the registration process, users can expect how many steps remaining in the process.
+              <br><br>Also, "continue" button with the number indication functions just like progress bar, which informs users of what to expect and when to end the whole process.
+
+
+            </div>
+            <div class="column"><video class="video" width="100%" src="preuber_contents/pressed_video/uber2.mp4" autoplay controls
+                loop muted></video>
+            </div>
+          </div>
+        </p>
+        <p>
+          <div class="row">
+            <div class="column"><br><br><br><span class="keytitle">3. Enjoy more information</span>
+              <br><br><br>Users can have a better idea of their final destination, expected time, and expected earning before accepting the orders.
+              <br><br>Also, "slide" to delivery button would create less confusion for novice users. Users also can ask for help and contact Uber easily whenever they encounter problems by hitting "any problem?"
+             
+            </div>
+            <div class="column"><video class="video" width="100%" src="preuber_contents/pressed_video/uber3.mp4" autoplay controls
+                loop muted></video>
+            </div>
+          </div>
+        </p>
+        <p>
+          <div class="row">
+            <div class="column"><br><br><span class="keytitle">4. Do what you prefer</span>
+
+              <br><br>Some users mentioned that they would like to utilize <span class="italic">account setting menu</span> in order to reflect their preference when accepting calls (Driver only? Courier only? Preferred genders to deliever?, etc).
+              <br><br>In this regard, I would like to add <span class="italic">Preference</span> tap in account setting, which might help such users feel more comfortable as a Courier also meet their needs. This would help users to have personalized experience as a Courier.
+            </div>
+            <div class="column"><video class="video" width="100%" src="preuber_contents/pressed_video/uber4.mp4" autoplay controls
+                loop muted></video>
+            </div>
+          </div>
+        </p>
+        <p>
+          
+      </section>
+
+      <section class="process">
+        <h2>Limitation & Reflection</h2>
+        <p>
+          This project was solely initiated by myself with <span class="bold">neither brand/design guideline nor accurate information about Uber Eats.</span> In this regard, the design solutions I suggested might <span class="bold">not fully consider feasibility nor reflect critical factors</span> I should
+          incorporate. 
+          
+          <br><br>Also, <span class="bold">1) user research I conducted is narrow-focused – very limited – in terms of demographics of
+          respondents,</span> and <span class="bold">2) I couldn’t fully explore and analyze competitors due to personal reason – I didn’t own a car.</span>
+
+
+          <br><br> However, the project provided me with <span class="bold">better understanding about the product,</span> and I was able to <span class="bold">build empathy with couriers</span> from both user research and my hands-on experience; I tried to find pain points and needs of couriers and wanted my solution to reflect important findings.
+
+
+
+          <br><br>In the near future, I hope I could be better equipped with more accurate data, protocols, and brand guidelines, so I can
+          better help couriers optimally experience Uber Eats to achieve their goals.
+
+      </section>
+
+
+
+      <br><br>
+      <a class="next" href="linkedin.html">
+        Next: LinkedIn UX Design
+      </a>
+  </article>
+
+  <footer class="footer">
+
+    <address>
+      <!-- <a class="email" href="mailto:ezshin@umich.edu">ezshin@umich.edu</a>
+     <a class="Resume" target="_blank" href="resume/aprilshin_resume_sep18.pdf">     ㆍ  Resume </a>
+     <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/aprileshin/">     ㆍ  Linkedin </a> -->
+      <!-- <a class="medium" target="_blank" href="#">   ㆍ  Medium  </a> -->
+      <!-- Add font awesome icons -->
+      <a target="_blank" class="footer_2" href="https://dribbble.com/april_e_shin">Dribble</a>
+      <a target="_blank" class="footer_2" href="https://medium.com/@ezzyy04">Medium</a>
+      <a target="_blank" class="footer_2" href="https://www.linkedin.com/in/aprileshin/">LinkedIn</a>
+  
+
+      <!-- previous_logos_images -->
+      <!-- <a target="_blank" href="https://dribbble.com/april_e_shin" class="fa fa-dribbble"></a>
+      <a target="_blank" href="https://medium.com/@ezzyy04" class="fa fa-medium"></a>
+      <a target="_blank" href="https://www.linkedin.com/in/aprileshin/" class="fa fa-linkedin"></a>
+      <a target="_blank" href="mailto:ezshin@umich.edu" class="fa fa-google"></a> -->
+    </address>
+    <small class="copyright">&copy; 2018 Designed & Coded by April Euljin Shin.</small>
+  </footer>
+
+  <script>$('.image-selector').lightzoom({
+      glassSize: 200, zoomPower: 1.8
+    });</script>
+</body>
+
+</html>
